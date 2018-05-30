@@ -56,8 +56,35 @@ a:hover {
   color: #4f5d75;
 }
 
-.container {
-  margin: 0px auto;
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #4f5d75;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  margin: 150px auto;
+  padding: 0;
+}
+
+#sidebar li {
+  margin: 100px auto;
+}
+
+#sidebar ul li a {
+  color: #ff6a54;
+}
+
+#sidebar ul li a:hover {
+  color: #f4f4f7;
+}
+#page-content {
+  margin-left: 100px;
 }
 
 .rounded-profile {
@@ -74,7 +101,7 @@ a:hover {
 .card {
   text-align: center;
   background-color: #f4f4f7;
-  width: 50%;
+  width: 70%;
   margin: 40px auto;
   padding: 30px;
 }
