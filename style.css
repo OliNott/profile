@@ -64,6 +64,7 @@ a:hover {
   bottom: 0;
   background-color: #4f5d75;
   text-align: center;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
 }
 
 #sidebar ul {
